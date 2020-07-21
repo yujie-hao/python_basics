@@ -21,3 +21,4 @@ print(tuple_1)
 print(tuple_1[0][1])
 print(tuple_1[-1][-2])
 print(tuple_1[-1][-2][1])
+print(tuple_1[-4])  # print(tuple_1[-5]) and print(tuple_1[4]) are index out of range
