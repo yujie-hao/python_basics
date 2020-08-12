@@ -9,7 +9,9 @@ list: element is mutable
 tuple_1 = ()
 print(tuple_1)
 
-tuple_1 = (1, 2, 3)
+tuple_1 = (1, 2,
+           3)  # multi-line statement
+
 print(tuple_1)
 
 tuple_1 = ("string1", bool, 1.23, ['a', 1], ('b', 2))
