@@ -1,3 +1,7 @@
+"""
+[Python dictionary] is an unordered collection of items, each item of a dictionary has a key/value pair.
+"""
+
 # empty dictionary
 my_dict = {}
 
