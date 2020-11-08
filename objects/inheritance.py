@@ -69,3 +69,33 @@ print(isinstance(t, object))
 print(issubclass(Polygon, Triangle))
 print(issubclass(Triangle, Polygon))
 print(issubclass(bool, int))
+
+
+# https://www.programiz.com/python-programming/multiple-inheritance
+# multiple inheritance
+# A class can be derived from more than one base class in Python, similar to C++. This is called multiple inheritance.
+class Base1:
+    pass
+
+
+class Base2:
+    pass
+
+
+class MultiDerived(Base1, Base2):
+    pass
+
+
+# multi-level inheritance
+class Grandfather:
+    pass
+
+
+class Father(Grandfather):
+    pass
+
+
+class Son(Father):
+    pass
+
+
